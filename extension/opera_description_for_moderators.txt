@@ -1,0 +1,20 @@
+AntiScamer Screen Share Monitor is a Chromium and Opera extension that detects when a webpage initiates WebRTC calls or requests screen-sharing access.
+
+It monitors:
+• navigator.mediaDevices.getDisplayMedia()
+• navigator.mediaDevices.getUserMedia()
+• Creation of RTCPeerConnection
+• SDP offer/answer exchange
+• Actual activation of screen sharing by the user
+
+The purpose is to protect users from financial scammers who trick people into sharing their screen in order to steal money (fake bank security departments, fake investment advisors, etc).
+
+The extension:
+— Does NOT capture screen content
+— Does NOT process audio/video streams
+— Does NOT transmit or store personal data
+— Only logs the fact that WebRTC/screen-share API was invoked
+
+When such an event is detected, the extension sends a notification to the user’s personal Telegram bot using a stored chat_id. All data is stored locally via chrome.storage. No external servers are used.
+
+The project is published under the MIT License.

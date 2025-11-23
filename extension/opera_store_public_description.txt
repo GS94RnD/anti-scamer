@@ -1,0 +1,52 @@
+🛡 AntiScamer Screen Share Monitor
+
+🇷🇺 Защита от мошенников, которые пытаются заставить вас включить демонстрацию экрана или видеозвонок.
+
+Расширение автоматически:
+• отслеживает видеозвонки
+• фиксирует запросы на демонстрацию экрана
+• понимает, когда вы нажимаете «Поделиться экраном»
+• отправляет предупреждение в Telegram двум экстренным контактам, которых укажете Вы в расширении.
+
+Расширение НЕ видит ваш экран, НЕ записывает видео, НЕ собирает личные данные.  
+Оно только обнаруживает факт запуска демонстрации.
+
+Как пользоваться:
+1. Установите расширение;
+2. Перейти в Telegram бот, @AntiScumersBot (https://t.me/AntiScumersBot), написать команду /start , 
+написать нужно как Вам, так и Вашим экстренным контактам иначе сообщение о тревоге  не сможет прийти Вашим экстренным контактам 
+3. Введите в расширении Telegram ID Ваших экстренных контактов, если Вы не знаете как их найти воспользуйтесть сторонним Telegram ботом - @username_to_id_bot (https://t.me/username_to_id_bot);
+4. При попытке демонстрировать ваш экран браузера — Ваши экстренные контакты получат моментальное предупреждение в виде сообщения Telegram.  
+
+📜 MIT License  
+Автор: Skorodinskiy Georgiy Pavlovich  
+Телеграм для связи: https://t.me/GeorgSK21
+---
+
+English Summary
+
+AntiScamer Screen Share Monitor detects when a website starts a WebRTC call or requests screen-sharing.  
+It sends instant alerts to your Telegram bot.  
+No data collection, no video capture — only event detection.
+
+The extension automatically:
+• tracks video calls
+• captures screen sharing requests
+• understands when you click "Share screen"
+• sends a warning to two emergency contacts you specify in the extension in Telegram.
+
+ The extension does NOT see your screen, does NOT record video, and does NOT collect personal data. 
+It only detects when you start a screen sharing session.
+
+ How to use:
+1. Install the extension;
+2. Go to the Telegram bot, @AntiScumersBot (https://t.me/AntiScumersBot), and write the command /start.
+You need to write it to both yourself and your emergency contacts, otherwise the alarm message will not be sent to your emergency contacts.
+3. Enter the Telegram ID of your emergency contacts in the extension. If you don't know how to use it, use the Telegram bot - @username_to_id_bot (https://t.me/username_to_id_bot).
+4. If you try to display your browser screen, your emergency contacts will receive an instant warning via Telegram.
+
+📜 MIT License  
+Crteator: Skorodinskiy Georgiy Pavlovich  
+For contacts: https://t.me/GeorgSK21
+
+
